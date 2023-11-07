@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{const e=document.querySelector("#content");console.log(e);const o=document.createElement("h1");o.innerHTML="Welcome to Freddy Fazbear's pizzeria!",e.appendChild(o),console.log("test")})();
