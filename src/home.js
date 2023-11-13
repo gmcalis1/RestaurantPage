@@ -2,9 +2,6 @@ import Icon from './FreddysBand.webp';
 
 
 const makeHome = function(cnt){
-    
-    console.log('activate');
-    
     const header = document.createElement('h1');
     header.textContent = 'Welcome to Freddy Fazbear\'s Pizzeria!'
 

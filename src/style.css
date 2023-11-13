@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-image: url(arcadeCarpet.png);
+    font-family: sans-serif;
+}
+button{
+    padding: 20px;
+    width: 25vh;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 75vh;
+    align-items:center;
+    background-color: rgb(163, 151, 79);
+    margin-top: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    background-color: blanchedalmond;
+    width: 75vh;
+    justify-content: center;
+}
+img{
+    width: 496px;
+    max-height: 344px;
+}
+
+/*#160122 background color*/

@@ -1,18 +1,17 @@
 import makeHome from './home.js'
 import makeMenu from './menu.js'
 import makeContact from './contact.js'
+import './style.css';
 
 //main body div of page
 const cnt = document.getElementById('content');
 
-//header creator with 3 buttons for different pages
-
+let currentPage = 0;
 
 //creates header with buttons
 const headerMaker = function(){
     const header = document.createElement('div');
     header.classList.add('header');
-
 
     const homeButton = document.createElement('button');
     homeButton.textContent = 'Home'
@@ -39,7 +38,6 @@ const headerMaker = function(){
 
 const changePage = function(destination){
     //keeps track of currently loaded page, 0 is home, 1 is menu, 2 is contact
-    let currentPage = 0;
     if(destination == currentPage){
         return
     }
